@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap&text=%E2%86%90|%E2%86%92'); /*Importing the same font again but only the two special characters → and ←, because: https://stackoverflow.com/questions/40822458/styled-unicode-arrows-not-showing-up-with-google-fonts-web-font*/
+
+
+@font-face {
+  font-family: 'jackey';
+  src: url('../ressources/font/jackeyfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "Press Start 2P", system-ui;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.pixel-border {
+  border: 1rem solid;
+  border-image: url("../ressources/pixel-style-assets/borderline.svg") 5 stretch;
+  border-radius: 2rem;
+}
+
+.text {
+  font-family: jackey;
+}
+
+.header {
+  height: 9.1875rem;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 0.4125rem;
+  background-color: #ffffff;
+}
+
+.home {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.products {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.giveaway {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width:29rem;
+  float: right;
+  margin-right: 2rem;
+}
+
+.logo {
+  width: fit-content;
+  height: fit-content;
+  margin: auto 2rem auto 2rem;
+  font-size: 2.1875rem;
+}
+
+.section-line {
+  /*height: 0.1725rem;*/
+  height: 0.4125rem;
+  background: #000;
+  width: 100%;
+}
+
+.footer {
+  color: #fff;
+  background-color: #fff;
+  width: 100%;
+  height: 51.1275rem;
+  display: block;
+}
+
+.footer-whitespace {
+  height: 2.19rem;
+}
+
+.footer-content {
+  background-color: #000;
+  display: block;
+}
+
+.footer-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 7.19rem;
+  margin-bottom: 6.25rem;
+  display: block;
+}
+
+.footer-text-div {
+  background-color: #fff;
+  width: 93.625rem;
+  height: 28.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text-border {
+  width: 91.25rem;
+  height: 26.5625rem;
+}
+
+/*Todo: replace all vw values with rem @marco-eberli*/
