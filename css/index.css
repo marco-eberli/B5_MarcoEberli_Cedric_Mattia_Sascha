@@ -7,6 +7,7 @@
     margin-top: 2.63rem;
     margin-bottom: 2.63rem;
   }
+
   .banner {
     width: 86.625rem;
     margin-bottom: 0.56rem;
@@ -79,7 +80,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 3.75rem;
+    gap: 2.75rem;
     width: 100%;
     margin-bottom: 10.69rem;
   }
@@ -149,6 +150,15 @@
     margin-top: 1.5rem;
   }
 
-  
+  @media screen and (max-width: 480px) {
+    .banner {
+      width: 60%;
+      margin-bottom: 0.56rem;
+      font-size: 1.25rem;
+      height: 3.4375rem;
+      overflow: hidden;
+      border-radius: 0%;
+    }
+  }
 
   /*Todo: replace all vw values with rem @marco-eberli*/

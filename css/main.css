@@ -108,11 +108,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
 }
+
+
 
 .footer-text-border {
   width: 91.25rem;
   height: 26.5625rem;
+}
+
+
+.div.footer-container {
+  width:100%;
+  overflow:auto;
+}
+div.footer-container div {
+  width:33%;  
+  float:left;
 }
 
 /*Todo: replace all vw values with rem @marco-eberli*/
