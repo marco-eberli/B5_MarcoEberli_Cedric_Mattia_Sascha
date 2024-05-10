@@ -9,7 +9,7 @@
   }
 
   .banner {
-    width: 86.625rem;
+    width: 80%;
     margin-bottom: 0.56rem;
     font-size: 1.25rem;
   }
@@ -153,12 +153,35 @@
   @media screen and (max-width: 480px) {
     .banner {
       width: 60%;
-      margin-bottom: 0.56rem;
-      font-size: 1.25rem;
-      height: 3.4375rem;
+      height: auto;
       overflow: hidden;
       border-radius: 0%;
     }
+
+    .win-button {
+      height: 100%;
+    }
+
+    .win-title {
+      font-size: 1.5rem;
+    }
+
+    .nav {
+      display: none;
+    }
+
+    .play-now-border {
+      width: 85%;
+      height: 30%;
+    }
+
+    .play-now-content {
+      width: 80%;
+      height: 25%;
+    }
+
+
+
   }
 
   /*Todo: replace all vw values with rem @marco-eberli*/
