@@ -107,12 +107,12 @@ a {
 .footer-content {
   background-color: #000;
   display: block;
+  padding-top: 7.19rem;
 }
 
 .footer-title {
   text-align: center;
   font-size: 3rem;
-  margin-top: 7.19rem;
   margin-bottom: 6.25rem;
   display: block;
 }
@@ -126,8 +126,6 @@ a {
   align-items: center;
   color: black;
 }
-
-
 
 .footer-text-border {
   width: 91.25rem;
@@ -144,4 +142,9 @@ div.footer-container div {
   float:left;
 }
 
-/*Todo: replace all vw values with rem @marco-eberli*/
+@media screen and (max-width: 480px) {
+  .footer-text-div {
+    width: 90%;
+
+  }
+}
