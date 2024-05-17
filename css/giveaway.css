@@ -10,6 +10,19 @@
   min-height: 600px;
 }
 
+.login-popup-container {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  width: 30%;
+  margin-top: 500px;
+}
+
+.submit-button {
+  width: 5rem;
+  align-content: center;
+}
+
 #game-container {
   width: 600px;
   margin: auto;
