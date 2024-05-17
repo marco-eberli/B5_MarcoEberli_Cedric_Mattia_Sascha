@@ -20,7 +20,11 @@
 
 .submit-button {
   width: 5rem;
-  align-content: center;
+  margin-top: 2rem;
+  margin: auto;
+  text-align: center; 
+  display: flex;
+  margin-top: 30px;
 }
 
 
