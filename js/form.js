@@ -1,3 +1,12 @@
+// (1) Variablen initialisieren
+const submitButton = document.getElementById("submit");
+let name = document.getElementById("name");
+let email = document.getElementById("email");
+
+
+name.addEventListener("input", validateForm);
+email.addEventListener("input", validateForm);
+  
   submitButton.disabled = true;
 
   function validateForm() {
@@ -11,16 +20,8 @@
     }
   }
 
-    name.addEventListener("input", validateForm);
-    email.addEventListener("input", validateForm);
-  });
 
 
-
-// (1) Variablen initialisieren
-const submitButton = document.getElementById("submit");
-const nameField = document.getElementById("name");
-const emailField = document.getElementById("email");
 
 submitButton.disabled = true;
 

@@ -1,12 +1,5 @@
-/* 
-- Erlaubt die Kommunikation mit einer Datenbank via SQL und JavaScript zu Schulungszwecken.
-- Verwenden Sie executeSqlQuery und insertInto.
-- Sie müssen nicht im Detail verstehen, wie der Code funktioniert. 
-*/
-
-// Ändern Sie die folgenden beiden Werte, um ihre Datenbank zu verbinden.
-const GROUP_NAME = "teacher";
-const PASSWORD = "vf9bm0k4uoji7o4b";
+const GROUP_NAME = "b5";
+const PASSWORD = "p5937lie68ynlfz7";
 
 const SERVER_URL = "https://ict-290.herokuapp.com/sql";
 const databaseClient = {
