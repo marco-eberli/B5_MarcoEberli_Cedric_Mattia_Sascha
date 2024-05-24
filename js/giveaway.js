@@ -1,5 +1,5 @@
-const audioElement = new Audio("../ressources/sounds/clap.wav");
-const audioSource = audioElement.src;
+const audioElementOne = document.getElementById("audioOne")
+const audioSourceOne = audioElementOne.src;
 const audioOne = new Audio(audioSource.src);
 
 let buttonOne = document.getElementById("1");
