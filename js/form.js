@@ -1,29 +1,23 @@
 // (1) Variablen initialisieren
 const submitButton = document.getElementById("submit");
-let name = document.getElementById("name");
-let email = document.getElementById("email");
+const name = document.getElementById("name");
+const email = document.getElementById("email");
 
+//submitButton.disabled = true;
 
 name.addEventListener("input", validateForm);
 email.addEventListener("input", validateForm);
-  
-  submitButton.disabled = true;
 
-  function validateForm() {
-    const nameValid = /^[A-Za-z\s]{3,}$/.test(name.value.trim());
-    const emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim());
+function validateForm() {
+  const nameValid = /^[A-Za-z\s]{3,}$/.test(name.value.trim());
+  const emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim());
 
-    if (nameValid && emailValid) {
-      submitButton.disabled = false;
-    } else {
-      submitButton.disabled = true;
-    }
+  if (nameValid && emailValid) {
+    submitButton.disabled = false;
+  } else {
+    submitButton.disabled = true;
   }
-
-
-
-
-submitButton.disabled = true;
+}
 
 // (2) Interaktionen festlegen
 submitButton.addEventListener("click", async (event) => {

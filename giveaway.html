@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>GIVEAWAY</title>
-        <link rel="stylesheet" href="./css/main.css" />
-        <link rel="stylesheet" href="./css/giveaway.css" />
-    </head>
-    <body>
-        <div class="header">
-            <div class="logo" href="index.html">DRUMATIZED</div>
-            <div class="nav">
-              <div class="home" href="index.html">HOME</div>
-              <div class="products" href="products.html">PRODUCTS</div>
-              <div class="giveaway" href="giveaway.html">GIVEAWAY</div>
-            </div>
-          </div>
-          <div class="game-canvas">
-            <div class="game-div">
-                <div class="drumpad pixel-border"></div>
-                <div class="drumpad pixel-border"></div>
-                <div class="drumpad pixel-border"></div>
-                <div class="drumpad pixel-border"></div>
-                <div class="drumpad pixel-border"></div>
-                <div class="drumpad pixel-border"></div>
-                <div class="drumpad pixel-border"></div>
-                <div class="drumpad pixel-border"></div>
-                <div class="drumpad pixel-border"></div>
-            </div>
-          </div>
-          <div id="login-popup-container" class="pixel-border">
-            <h1>WE LOVE IT!</h1>
-            <p>ENTER YOUR DETAILS TO WIN SOME COOL ASS SHIT!</p>
-            <form action="#" method="post">
-                <input id="name" class="login-popup-input pixel-border pixel-border-light" type="text" name="name" placeholder="your name" required>
-                <input id="email" class="login-popup-input pixel-border pixel-border-light" type="email" name="email" placeholder="your email" required>
-                <button id="submit"class="submit-button pixel-border" type="submit" href="">GO</button>
-            </form>
-        </div>
-        <script src="./js/databaseClient.js"></script>
-        <script src="./js/form.js"></script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GIVEAWAY</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/giveaway.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo" href="index.html">DRUMATIZED</div>
+      <div class="nav">
+        <div class="home" href="index.html">HOME</div>
+        <div class="products" href="products.html">PRODUCTS</div>
+        <div class="giveaway" href="giveaway.html">GIVEAWAY</div>
+      </div>
+    </div>
+    <div class="game-canvas">
+      <div class="game-div">
+        <div id="1" class="drumpad pixel-border purple"></div>
+        <div id="2" class="drumpad pixel-border orange"></div>
+        <div id="3" class="drumpad pixel-border green"></div>
+        <div id="4" class="drumpad pixel-border purple"></div>
+        <div id="5" class="drumpad pixel-border orange"></div>
+        <div id="6" class="drumpad pixel-border green"></div>
+        <div id="7" class="drumpad pixel-border purple"></div>
+        <div id="8" class="drumpad pixel-border orange"></div>
+        <div id="9" class="drumpad pixel-border green"></div>
+      </div>
+    </div>
+    <div id="login-popup-container" class="pixel-border">
+      <h1>WE LOVE IT!</h1>
+      <p>ENTER YOUR DETAILS TO WIN SOME COOL ASS SHIT!</p>
+      <form action="#" method="post">
+        <input
+          id="name"
+          class="login-popup-input pixel-border pixel-border-light"
+          type="text"
+          name="name"
+          placeholder="your name"
+          required
+        />
+        <input
+          id="email"
+          class="login-popup-input pixel-border pixel-border-light"
+          type="email"
+          name="email"
+          placeholder="your email"
+          required
+        />
+        <button
+          id="submit"
+          class="submit-button pixel-border"
+        >
+          GO
+        </button>
+      </form>
+    </div>
+    <script src="./js/databaseClient.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="js/giveaway.js"></script>
+  </body>
 </html>
