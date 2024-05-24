@@ -1,4 +1,6 @@
-const audioOne = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+const audioElement = new Audio("../ressources/sounds/clap.wav");
+const audioSource = audioElement.src;
+const audioOne = new Audio(audioSource.src);
 
 let buttonOne = document.getElementById("1");
 let buttonTwo = document.getElementById("2");
@@ -22,4 +24,36 @@ buttonNine.addEventListener("click", soundNine);
 
 function soundOne() {
   audioOne.play();
+}
+
+function soundTwo() {
+  audioTwo.play();
+}
+
+function soundThree() {
+  audioThree.play();
+}
+
+function soundFour() {
+  audioFour.play();
+}
+
+function soundFive() {
+  audioFive.play();
+}
+
+function soundSix() {
+  audioSix.play();
+}
+
+function soundSeven() {
+  audioSeven.play();
+}
+
+function soundEight() {
+  audioEight.play();
+}
+
+function soundNine() {
+  audioNine.play();
 }

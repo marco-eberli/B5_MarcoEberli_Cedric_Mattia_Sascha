@@ -67,3 +67,7 @@ a {
   text-decoration: none;
   display: block;
 }
+
+.audio-div {
+  display: none;
+}

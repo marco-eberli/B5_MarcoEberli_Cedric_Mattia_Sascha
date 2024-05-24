@@ -27,8 +27,9 @@ submitButton.addEventListener("click", async (event) => {
 
 const onClickSubmit = async () => {
   // Speichert die Daten in der Datenbank
-  await databaseClient.insertInto("user", {
+  await databaseClient.insertInto("giveaway", {
     name: name.value,
     email: email.value,
   });
 };
+ 
