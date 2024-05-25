@@ -67,17 +67,17 @@
 }
 
 .orange {
-  background-image: url("/images/drumpads-orange.png");
+  background-image: url("../ressources/images/drumpads-orange.png");
   background-size: cover;
 }
 
 .purple {
-  background-image: url("/images/drumpads-purple.png");
+  background-image: url("../ressources/images/drumpads-purple.png");
   background-size: cover; 
 }
 
 .green {
-  background-image: url("/images/drumpads-green.png");
+  background-image: url("../ressources/images/drumpads-green.png");
   background-size: cover; 
 }
 
