@@ -174,46 +174,42 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementsByClassName("form-container")[0].style.zIndex = "-1";
     console.log("Form hidden");
   }
+
+  function deactivateAllButtons() {
+    audioOne.pause();
+    buttonOne.classList.remove("looping");
+    buttonOne.classList.add("pixel-border");
+
+    audioTwo.pause();
+    buttonTwo.classList.remove("looping");
+    buttonTwo.classList.add("pixel-border");
+
+    audioThree.pause();
+    buttonThree.classList.remove("looping");
+    buttonThree.classList.add("pixel-border");
+
+    audioFour.pause();
+    buttonFour.classList.remove("looping");
+    buttonFour.classList.add("pixel-border");
+
+    audioFive.pause();
+    buttonFive.classList.remove("looping");
+    buttonFive.classList.add("pixel-border");
+
+    audioSix.pause();
+    buttonSix.classList.remove("looping");
+    buttonSix.classList.add("pixel-border");
+
+    audioSeven.pause();
+    buttonSeven.classList.remove("looping");
+    buttonSeven.classList.add("pixel-border");
+
+    audioEight.pause();
+    buttonEight.classList.remove("looping");
+    buttonEight.classList.add("pixel-border");
+
+    audioNine.pause();
+    buttonNine.classList.remove("looping");
+    buttonNine.classList.add("pixel-border");
+  }
 });
-
-function deactivateAllButtons() {
-  audioOne.pause();
-  buttonOne.classList.remove("looping");
-  buttonOne.classList.add("pixel-border");
-
-  audioTwo.pause();
-  buttonTwo.classList.remove("looping");
-  buttonTwo.classList.add("pixel-border");
-
-  audioThree.pause();
-  buttonThree.classList.remove("looping");
-  buttonThree.classList.add("pixel-border");
-
-  audioFour.pause();
-  buttonFour.classList.remove("looping");
-  buttonFour.classList.add("pixel-border");
-
-  audioFive.pause();
-  buttonFive.classList.remove("looping");
-  buttonFive.classList.add("pixel-border");
-
-  audioSix.pause();
-  buttonSix.classList.remove("looping");
-  buttonSix.classList.add("pixel-border");
-
-  audioSeven.pause();
-  buttonSeven.classList.remove("looping");
-  buttonSeven.classList.add("pixel-border");
-
-  audioEight.pause();
-  buttonEight.classList.remove("looping");
-  buttonEight.classList.add("pixel-border");
-
-  audioNine.pause();
-  buttonNine.classList.remove("looping");
-  buttonNine.classList.add("pixel-border");
-
-  audioTen.pause();
-  buttonTen.classList.remove("looping");
-  buttonTen.classList.add("pixel-border");
-}
