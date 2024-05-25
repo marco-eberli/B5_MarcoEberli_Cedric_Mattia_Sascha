@@ -155,9 +155,18 @@ function soundNine() {
 }
 
 function revealForm() {
-  document.getElementsByClassName("form-container").style.background-color = "#ffffff90"
+  document.getElementsByClassName("form-container")[0].style.backgroundColor  = "#ffffff90"
   document.getElementById("login-popup-container").style.display = "inline-block"
   console.log("Form revealed")
 }
 
 setTimeout(revealForm, 10000);
+
+let submitButton = document.getElementById("submit");
+submitButton.addEventListener("click", hideForm);
+
+function hideForm() {
+  document.getElementsByClassName("form-container")[0].style.backgroundColor  = "#ffffff00"
+  document.getElementById("login-popup-container").style.display = "none"
+  console.log("Form hidden")
+}
