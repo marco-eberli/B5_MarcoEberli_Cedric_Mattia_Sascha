@@ -43,113 +43,113 @@ function soundOne() {
 }
 
 function soundTwo() {
-  if (!audioTwo.classList.contains("looping")) {
+  if (!buttonTwo.classList.contains("looping")) {
       audioTwo.play();
       audioTwo.loop = true;
-      audioTwo.classList.add("looping")
-      audioTwo.classList.remove("pixel-border")
+      buttonTwo.classList.add("looping")
+      buttonTwo.classList.remove("pixel-border")
     } else {
       audioTwo.pause();
       audioTwo.loop = false;
-      audioTwo.classList.remove("looping")
-      audioTwo.classList.add("pixel-border")
+      buttonTwo.classList.remove("looping")
+      buttonTwo.classList.add("pixel-border")
     }
 }
 
 function soundThree() {
-  if (!audioThree.classList.contains("looping")) {
+  if (!buttonThree.classList.contains("looping")) {
       audioThree.play();
       audioThree.loop = true;
-      audioThree.classList.add("looping")
-      audioThree.classList.remove("pixel-border")
+      buttonThree.classList.add("looping")
+      buttonThree.classList.remove("pixel-border")
     } else {
       audioThree.pause();
       audioThree.loop = false;
-      audioThree.classList.remove("looping")
-      audioThree.classList.add("pixel-border")
+      buttonThree.classList.remove("looping")
+      buttonThree.classList.add("pixel-border")
     }
 }
 
 function soundFour() {
-  if (!audioFour.classList.contains("looping")) {
+  if (!buttonFour.classList.contains("looping")) {
       audioFour.play();
       audioFour.loop = true;
-      audioFour.classList.add("looping")
-      audioFour.classList.remove("pixel-border")
+      buttonFour.classList.add("looping")
+      buttonFour.classList.remove("pixel-border")
     } else {
       audioFour.pause();
       audioFour.loop = false;
-      audioFour.classList.remove("looping")
-      audioFour.classList.add("pixel-border")
+      buttonFour.classList.remove("looping")
+      buttonFour.classList.add("pixel-border")
     }
 }
 
 function soundFive() {
-  if (!audioFive.classList.contains("looping")) {
+  if (!buttonFive.classList.contains("looping")) {
       audioFive.play();
       audioFive.loop = true;
-      audioFive.classList.add("looping")
-      audioFive.classList.remove("pixel-border")
+      buttonFive.classList.add("looping")
+      buttonFive.classList.remove("pixel-border")
     } else {
       audioFive.pause();
       audioFive.loop = false;
-      audioFive.classList.remove("looping")
-      audioFive.classList.add("pixel-border")
+      buttonFive.classList.remove("looping")
+      buttonFive.classList.add("pixel-border")
     }
 }
 
 function soundSix() {
-  if (!audioSix.classList.contains("looping")) {
+  if (!buttonSix.classList.contains("looping")) {
       audioSix.play();
       audioSix.loop = true;
-      audioSix.classList.add("looping")
-      audioSix.classList.remove("pixel-border")
+      buttonSix.classList.add("looping")
+      buttonSix.classList.remove("pixel-border")
     } else {
       audioSix.pause();
       audioSix.loop = false;
-      audioSix.classList.remove("looping")
-      audioSix.classList.add("pixel-border")
+      buttonSix.classList.remove("looping")
+      buttonSix.classList.add("pixel-border")
     }
 }
 
 function soundSeven() {
-  if (!audioSeven.classList.contains("looping")) {
+  if (!buttonSeven.classList.contains("looping")) {
       audioSeven.play();
       audioSeven.loop = true;
-      audioSeven.classList.add("looping")
-      audioSeven.classList.remove("pixel-border")
+      buttonSeven.classList.add("looping")
+      buttonSeven.classList.remove("pixel-border")
     } else {
       audioSeven.pause();
       audioSeven.loop = false;
-      audioSeven.classList.remove("looping")
-      audioSeven.classList.add("pixel-border")
+      buttonSeven.classList.remove("looping")
+      buttonSeven.classList.add("pixel-border")
     }
 }
 
 function soundEight() {
-  if (!audioEight.classList.contains("looping")) {
+  if (!buttonEight.classList.contains("looping")) {
       audioEight.play();
       audioEight.loop = true;
-      audioEight.classList.add("looping")
-      audioEight.classList.remove("pixel-border")
+      buttonEight.classList.add("looping")
+      buttonEight.classList.remove("pixel-border")
     } else {
       audioEight.pause();
       audioEight.loop = false;
-      audioEight.classList.remove("looping")
-      audioEight.classList.add("pixel-border")
+      buttonEight.classList.remove("looping")
+      buttonEight.classList.add("pixel-border")
     }
 }
 
 function soundNine() {
-  if (!audioNine.classList.contains("looping")) {
+  if (!buttonNine.classList.contains("looping")) {
       audioNine.play();
       audioNine.loop = true;
-      audioNine.classList.add("looping")
-      audioNine.classList.remove("pixel-border")
+      buttonNine.classList.add("looping")
+      buttonNine.classList.remove("pixel-border")
     } else {
       audioNine.pause();
       audioNine.loop = false;
-      audioNine.classList.remove("looping")
-      audioNine.classList.add("pixel-border")
+      buttonNine.classList.remove("looping")
+      buttonNine.classList.add("pixel-border")
     }
 }
