@@ -1,6 +1,5 @@
 const audioElementOne = document.getElementById("audioOne")
-const audioSourceOne = audioElementOne.src;
-const audioOne = new Audio(audioSource.src);
+const audioOne = new Audio(audioElementOne.src);
 
 let buttonOne = document.getElementById("1");
 let buttonTwo = document.getElementById("2");

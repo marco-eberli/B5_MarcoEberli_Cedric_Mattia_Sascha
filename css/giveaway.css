@@ -26,7 +26,6 @@
 .game-canvas {
   width: 100%;
   height: auto;
-  background-color: azure; /*temporary for programming*/
   overflow: auto;
 }
 
@@ -68,6 +67,6 @@ a {
   display: block;
 }
 
-.audio-div {
+/*.audio-div {
   display: none;
-}
+}*/
