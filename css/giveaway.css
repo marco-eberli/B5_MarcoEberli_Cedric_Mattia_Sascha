@@ -33,6 +33,7 @@
     display: block;
     font-family: "Press Start 2P", system-ui;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .game-canvas {
