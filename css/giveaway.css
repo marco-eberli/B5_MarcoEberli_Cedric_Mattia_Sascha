@@ -46,6 +46,12 @@
   cursor: pointer;
 }
 
+.looping {
+  border: 1rem solid;
+  border-image: url("../ressources/pixel-style-assets/borderline-looping.svg") 5 stretch;
+  border-radius: 2rem;
+}
+
 .orange {
   background-image: url("/images/drumpads-orange.png");
   background-size: cover;
@@ -67,6 +73,6 @@ a {
   display: block;
 }
 
-/*.audio-div {
+.audio-div {
   display: none;
-}*/
+}
