@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="header">
-      <div class="logo" href="index.html">DRUMATIZED</div>
+      <div class="logo"><a href="index.html">DRUMATIZED</a></div>
       <div class="nav">
         <div class="home"><a href="index.html">HOME</a></div>
         <div class="products"><a href="products.html">PRODUCTS</a></div>
@@ -42,33 +42,35 @@
         <div id="9" class="drumpad pixel-border green"></div>
       </div>
     </div>
-    <div id="login-popup-container" class="pixel-border">
-      <h1>WE LOVE IT!</h1>
-      <p>ENTER YOUR DETAILS TO WIN SOME COOL *SS SH*T!</p>
-      <form action="#" method="post">
-        <input
-          id="name"
-          class="login-popup-input pixel-border pixel-border-light"
-          type="text"
-          name="name"
-          placeholder="your name"
-          required
-        />
-        <input
-          id="email"
-          class="login-popup-input pixel-border pixel-border-light"
-          type="email"
-          name="email"
-          placeholder="your email"
-          required
-        />
-        <button
-          id="submit"
-          class="submit-button pixel-border"
-        >
-          GO
-        </button>
-      </form>
+    <div class="form-container">
+      <div id="login-popup-container" class="pixel-border">
+        <h1>WE LOVE IT!</h1>
+        <p>ENTER YOUR DETAILS TO WIN SOME COOL *SS SH*T!</p>
+        <form action="#" method="post">
+          <input
+            id="name"
+            class="login-popup-input pixel-border pixel-border-light"
+            type="text"
+            name="name"
+            placeholder="your name"
+            required
+          />
+          <input
+            id="email"
+            class="login-popup-input pixel-border pixel-border-light"
+            type="email"
+            name="email"
+            placeholder="your email"
+            required
+          />
+          <button
+            id="submit"
+            class="submit-button pixel-border"
+          >
+            GO
+          </button>
+        </form>
+      </div>
     </div>
     <script src="./js/databaseClient.js"></script>
     <script src="./js/form.js"></script>

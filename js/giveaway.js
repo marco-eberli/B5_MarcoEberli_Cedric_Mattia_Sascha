@@ -153,3 +153,11 @@ function soundNine() {
       buttonNine.classList.add("pixel-border")
     }
 }
+
+function revealForm() {
+  document.getElementsByClassName("form-container").style.background-color = "#ffffff90"
+  document.getElementById("login-popup-container").style.display = "inline-block"
+  console.log("Form revealed")
+}
+
+setTimeout(revealForm, 10000);
