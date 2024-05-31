@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap&text=%E2%86%90|%E2%86%92'); /*Importing the same font again but only the two special characters → and ←, because: https://stackoverflow.com/questions/40822458/styled-unicode-arrows-not-showing-up-with-google-fonts-web-font*/
 
-
 @font-face {
   font-family: 'jackey';
   src: url('../ressources/font/jackeyfont.ttf') format('truetype');
@@ -174,5 +173,31 @@ a {
   .footer-text-border {
     width: 92.5%;
     height: 92.5%;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .logo a:first-child {
+    float: left;
+    margin-left: 5%;
+  }
+  
+  .nav {
+    display: none;
   }
 }

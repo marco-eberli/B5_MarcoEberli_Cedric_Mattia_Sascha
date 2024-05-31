@@ -7,7 +7,6 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #ffffff00;
 }
 
 #login-popup-container {
@@ -18,6 +17,12 @@
   background-color: white;
 }
 
+#login-popup-background{
+  background-image: url("../ressources/images/surprise-wowowowow.webp");
+  background-repeat: none;
+  display: none;
+}
+
 .submit-button {
   width: 5rem;
   margin-top: 2rem;
@@ -25,6 +30,13 @@
   text-align: center; 
   display: flex;
   margin-top: 30px;
+}
+
+.login-popup-input:focus{
+  border: 1rem solid;
+  border-image: url("../ressources/pixel-style-assets/borderline.svg") 5 stretch;
+  border-radius: 2rem; 
+  outline: none;
 }
 
 #submit {

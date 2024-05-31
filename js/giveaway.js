@@ -159,6 +159,7 @@ document.addEventListener("DOMContentLoaded", function() { //Doesn't work withou
     document.getElementsByClassName("form-container")[0].style.backgroundColor = "#ffffff90";
     document.getElementsByClassName("form-container")[0].style.zIndex = "10";
     document.getElementById("login-popup-container").style.display = "inline-block";
+    document.getElementById("login-popup-background").style.display = "block";
     deactivateAllButtons();
     console.log("Form revealed");
   }
