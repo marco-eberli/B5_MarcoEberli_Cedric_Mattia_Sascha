@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() { //Doesn't work without this eventhough at the bottom in html file...?
   const audioOne = document.getElementById("audioOne");
   const audioTwo = document.getElementById("audioTwo");
   const audioThree = document.getElementById("audioThree");
