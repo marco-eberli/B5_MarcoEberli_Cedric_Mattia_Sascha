@@ -143,6 +143,11 @@ a {
   width: 100%;
 }
 
+.top-button.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media screen and (max-width: 480px) {
   .footer-text-div {
     width: 90%;
@@ -196,7 +201,7 @@ a {
     float: left;
     margin-left: 5%;
   }
-  
+
   .nav {
     display: none;
   }

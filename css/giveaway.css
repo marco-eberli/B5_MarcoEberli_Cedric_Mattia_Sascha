@@ -20,7 +20,9 @@
 #login-popup-background{
   background-image: url("../ressources/images/surprise-wowowowow.webp");
   background-repeat: none;
-  display: none;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .submit-button {
