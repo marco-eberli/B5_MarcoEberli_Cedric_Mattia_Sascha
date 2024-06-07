@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap&text=%E2%86%90|%E2%86%92'); /*Importing the same font again but only the two special characters → and ←, because: https://stackoverflow.com/questions/40822458/styled-unicode-arrows-not-showing-up-with-google-fonts-web-font*/
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap&text=%E2%86%90|%E2%86%92"); /*Importing the same font again but only the two special characters → and ←, because: https://stackoverflow.com/questions/40822458/styled-unicode-arrows-not-showing-up-with-google-fonts-web-font*/
 
 @font-face {
-  font-family: 'jackey';
-  src: url('../ressources/font/jackeyfont.ttf') format('truetype');
+  font-family: "jackey";
+  src: url("../ressources/font/jackeyfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -81,7 +81,7 @@ a {
 .nav {
   display: flex;
   justify-content: space-between;
-  width:29rem;
+  width: 29rem;
   float: right;
   margin-right: 2rem;
 }
@@ -135,7 +135,7 @@ a {
 }
 
 .footer-text-border {
-  width: 91.25rem;
+  width: 100%;
   height: 26.5625rem;
 }
 
@@ -171,7 +171,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;  
+    width: 100%;
     height: 56%;
     margin: 2%;
   }
@@ -237,7 +237,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;  
+    width: 100%;
     height: 56%;
     margin: 2%;
   }

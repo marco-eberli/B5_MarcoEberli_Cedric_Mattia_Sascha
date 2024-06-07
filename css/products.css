@@ -47,6 +47,11 @@
   padding: 1.63rem;
 }
 
+.line-break {
+  min-width: 100%;
+  height: 0;
+}
+
 .card-image {
   width: auto;
   height: 20rem;
@@ -60,7 +65,7 @@
 }
 
 .card-button {
-  width: 9rem;
+  width: 8.5rem;
   height: 2.5rem;
   float: right;
   font-size: 1.5rem;
@@ -76,16 +81,27 @@
   font-size: 3rem;
 }
 
-.card-button-centered {
-  width: 13rem;
-  height: 2.5rem;
-  font-size: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
+.card-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop-all-button {
+  width: 20.125rem;
+  height: 3.4375rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1.5rem;
+  font-size: 1.875rem;
+}
+
+.shop-all-button-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5.13rem;
 }
 
 @media screen and (max-width: 480px) {
