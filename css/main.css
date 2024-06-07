@@ -127,8 +127,7 @@ a {
 
 .footer-text-div {
   background-color: #fff;
-  width: 93.625rem;
-  height: 28.875rem;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -222,7 +221,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .footer-text-div {
     width: 90%;
   }

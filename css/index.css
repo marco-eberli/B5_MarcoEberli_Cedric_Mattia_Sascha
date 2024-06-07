@@ -38,16 +38,16 @@
   }
 
   .play-now-border {
-    width: 94.25rem;
-    height: 39.75rem;
+    width: 90%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .play-now-content {
-    width: 91.125rem;
-    height: 36.5625rem;
+    width: 85rem;
+    height: 30rem;
     background: gainsboro;
   }
 
@@ -190,6 +190,22 @@
     }
   
     .shop-all-button-div {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .play-now-border {
+      width: 85%;
+      height: 100%;
+    }
+
+    .banner {
+      width: 70%;
+    }
+
+    .play-now-content {
+      height: 20rem;
       width: 100%;
     }
   }
