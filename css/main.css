@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+.icon {
+  display: none;
+}
+
 .pixel-border {
   border: 1rem solid;
   border-image: url("../ressources/pixel-style-assets/borderline.svg") 5 stretch;
@@ -181,28 +185,32 @@ a {
   }
 
   .header {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .logo {
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem;
   }
 
   .nav {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .logo a:first-child {
-    float: left;
-    margin-left: 5%;
-  }
-
-  .nav {
     display: none;
+  }
+
+  .burger-nav {
+    font-size: 1rem;
+    background-color: gainsboro;
+    height: 5rem;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .icon {
+    background: black;
+    display: block;
+    margin-right: 2rem;
   }
 }
