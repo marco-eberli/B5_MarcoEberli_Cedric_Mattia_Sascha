@@ -215,8 +215,9 @@ a {
   }
 
   .icon {
-    background: black;
+    background: none;
     display: block;
     margin-right: 2rem;
+    margin-bottom: 0.3rem;
   }
 }
