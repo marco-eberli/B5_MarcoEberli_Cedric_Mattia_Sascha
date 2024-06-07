@@ -20,6 +20,10 @@ body {
   display: none;
 }
 
+.burger-nav {
+  display: none;
+}
+
 .pixel-border {
   border: 1rem solid;
   border-image: url("../ressources/pixel-style-assets/borderline.svg") 5 stretch;
@@ -199,13 +203,15 @@ a {
   }
 
   .burger-nav {
-    font-size: 1rem;
     background-color: gainsboro;
     height: 5rem;
-    display: block;
-    display: flex;
+    display: none;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .burger-nav a {
+    font-size: 1rem;
   }
 
   .icon {

@@ -1,8 +1,8 @@
 function burgerFunc() {
-    let nav = document.getElementsByClassName("nav");
-    if (nav.style.display === "block") {
+    let nav = document.getElementsByClassName("burger-nav")[0];
+    if (nav.style.display === "flex") {
       nav.style.display = "none";
     } else {
-      nav.style.display = "block";
+      nav.style.display = "flex";
     }
   }
