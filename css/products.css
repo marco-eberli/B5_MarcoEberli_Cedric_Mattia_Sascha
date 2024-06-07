@@ -40,6 +40,17 @@
   margin-bottom: 10.69rem;
 }
 
+.card-div2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.75rem;
+  width: 100%;
+  margin-bottom: 10.69rem;
+  margin-top: 10%;
+}
+
 .card-item {
   width: 21.5rem;
   height: 28.125rem;
