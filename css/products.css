@@ -45,6 +45,7 @@
   height: 28.125rem;
   display: block;
   padding: 1.63rem;
+  background-color: white;
 }
 
 .line-break {
@@ -73,6 +74,19 @@
   align-items: center;
   justify-content: center;
   margin-top: 1.5rem;
+}
+
+.bestseller-title {
+  margin: 9.75rem auto 7.13rem auto;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.bestseller-background {
+  background-color: black;
+  margin: 2%;
+  padding: 1%;
 }
 
 .our-products-title {
