@@ -40,6 +40,17 @@
   margin-bottom: 10.69rem;
 }
 
+.slider-div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.75rem;
+  width: 100%;
+  margin-bottom: 10.69rem;
+  overflow: hidden;
+}
+
 .card-div2 {
   display: flex;
   flex-wrap: wrap;
@@ -54,6 +65,14 @@
 .card-item {
   width: 21.5rem;
   height: 28.125rem;
+  display: block;
+  padding: 1.63rem;
+  background-color: white;
+}
+
+.slider-item {
+  width: 21.5rem; !important
+  height: 28.125rem; !important
   display: block;
   padding: 1.63rem;
   background-color: white;
