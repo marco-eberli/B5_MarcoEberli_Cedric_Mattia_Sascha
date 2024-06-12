@@ -71,11 +71,15 @@
 }
 
 .slider-item {
-  width: 21.5rem; !important
-  height: 28.125rem; !important
+  width: 21.5rem !important;
+  height: 28.125rem !important;
   display: block;
   padding: 1.63rem;
   background-color: white;
+}
+
+.slick-dots li button:before {
+  color: white;
 }
 
 .line-break {

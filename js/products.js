@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('.slider').slick({
-        slidesToShow: 3,
+        centerMode: true,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: false,
         autoplaySpeed: 2000,
@@ -10,21 +11,21 @@ $(document).ready(function(){
         {
             breakpoint: 1024, // Desktop size
             settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
             dots: true
             }
         },
         {
-            breakpoint: 768, // Tablet size
+            breakpoint: 880, // Tablet size
             settings: {
             slidesToShow: 1,
             slidesToScroll: 1
             }
         },
         {
-            breakpoint: 480, // Mobile size
+            breakpoint: 767, // Mobile size
             settings: {
             slidesToShow: 1,
             slidesToScroll: 1
