@@ -1,10 +1,11 @@
 $(document).ready(function(){
     $('.slider').slick({
         centerMode: true,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000,
+        infinite: true,
+        speed: 200,
+        focusOnSelected: true,
         dots: true,
         arrows: true,
         responsive: [

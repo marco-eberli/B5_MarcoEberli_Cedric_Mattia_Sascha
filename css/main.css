@@ -207,6 +207,8 @@ a {
     display: none;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 17%;
   }
 
   .burger-nav a {

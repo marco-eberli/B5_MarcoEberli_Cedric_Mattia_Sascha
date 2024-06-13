@@ -51,6 +51,14 @@
   overflow: hidden;
 }
 
+.slick-prev:before, .slick-next:before{
+  color:white !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
+
 .card-div2 {
   display: flex;
   flex-wrap: wrap;
@@ -76,10 +84,6 @@
   display: block;
   padding: 1.63rem;
   background-color: white;
-}
-
-.slick-dots li button:before {
-  color: white;
 }
 
 .line-break {

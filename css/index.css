@@ -150,6 +150,10 @@
   margin-top: 1.5rem;
 }
 
+.burger-nav {
+  top: 14.7%;
+}
+
 @media screen and (max-width: 480px) {
   .banner {
     width: 80%;
