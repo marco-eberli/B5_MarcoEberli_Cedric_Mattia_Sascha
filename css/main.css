@@ -16,6 +16,63 @@ body {
   margin: 0;
 }
 
+.banner-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2.63rem;
+  margin-bottom: 2.63rem;
+  overflow: hidden;
+}
+
+.banner {
+  width: 80%;
+  margin-bottom: 0.56rem;
+  font-size: 1.25rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0 !important;
+}
+
+.win-button {
+  font-size: 1.25rem;
+  margin-left: 0.56rem;
+  margin-bottom: 0.56rem;
+  cursor: pointer;
+}
+
+.win-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.marquee {
+  height: 1rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
 .icon {
   display: none;
 }
@@ -84,6 +141,10 @@ a {
   width: 29rem;
   float: right;
   margin-right: 2rem;
+}
+
+.nav:hover {
+  color: #F0618A; 
 }
 
 .logo {
