@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('.slider').slick({
+        variableWidth: true,
         centerMode: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -8,6 +9,7 @@ $(document).ready(function(){
         focusOnSelected: true,
         dots: true,
         arrows: true,
+        lazyLoad: 'progressive',
         responsive: [
         {
             breakpoint: 1024, // Desktop size
