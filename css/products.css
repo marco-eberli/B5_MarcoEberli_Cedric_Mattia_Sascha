@@ -40,6 +40,7 @@
   display: block;
 }
 
+
 .card-div {
   display: flex;
   flex-wrap: wrap;
@@ -50,6 +51,62 @@
   margin-bottom: 10.69rem;
 }
 
+
+.card-div2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.75rem;
+  width: 100%;
+  margin-bottom: 10.69rem;
+}
+
+.card-item {
+  width: 21.5rem;
+  height: 30rem;
+  display: block;
+  padding: 1.63rem;
+}
+
+.card-image {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* creating square image */
+  position: relative;
+  background-color: gainsboro;
+}
+
+.card-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* crop image to square */
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.card-text {
+  font-family: jackey;
+  font-size: 1.5rem;
+  margin-top: 1.6rem;
+}
+
+.card-button {
+  width: 9rem;
+  height: 2.5rem;
+  float: right;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+
+
 .slider-div {
   display: flex;
   flex-wrap: nowrap;
@@ -59,7 +116,7 @@
   width: 100%;
   margin-bottom: 10.69rem;
   overflow: hidden;
-}
+} 
 
 .slick-prev:before, .slick-next:before{
   color:white !important;
@@ -79,14 +136,8 @@
   margin-bottom: 10.69rem;
   margin-top: 10%;
 }
+ 
 
-.card-item {
-  width: 21.5rem;
-  height: 28.125rem;
-  display: block;
-  padding: 1.63rem;
-  background-color: white;
-}
 
 .slider-item {
   width: 21.5rem !important;
@@ -101,39 +152,6 @@
   height: 0;
 }
 
-.card-image {
-  width: auto;
-  height: 20rem;
-  background-color: gainsboro;
-}
-
-.card-text {
-  font-family: jackey;
-  font-size: 1.5rem;
-  margin-top: 0.93rem;
-}
-
-.card-button {
-  width: 8.5rem;
-  height: 2.5rem;
-  float: right;
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1.5rem;
-}
-
-.card-price {
-  width: 8.5rem;
-  height: 2.5rem;
-  float: right;
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1.5rem;
-}
 
 .bestseller-title {
   margin: 9.75rem auto 7.13rem auto;

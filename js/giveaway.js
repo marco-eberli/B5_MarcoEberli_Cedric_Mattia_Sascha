@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function() { //Doesn't work withou
     console.log("Form revealed");
   }
 
-  setTimeout(revealForm, 10000);
+  setTimeout(revealForm, 0);
 
   let submitButton = document.getElementById("submit");
   submitButton.addEventListener("click", hideForm);

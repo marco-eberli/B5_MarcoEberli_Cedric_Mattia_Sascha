@@ -103,7 +103,6 @@ a {
   color: #fff;
   background-color: #fff;
   width: 100%;
-  height: 51.1275rem;
   display: block;
 }
 
@@ -115,6 +114,8 @@ a {
   background-color: #000;
   display: block;
   padding-top: 7.19rem;
+  height: 100%;
+  padding-bottom: 5rem;
 }
 
 .footer-title {
@@ -212,7 +213,7 @@ a {
     justify-content: space-around;
     align-items: center;
     position: sticky;
-    top: 17%;
+    top: 9.1875rem;
   }
 
   .burger-nav a {
@@ -272,7 +273,7 @@ a {
     justify-content: space-around;
     align-items: center;
     position: sticky;
-    top: 17%;
+    top: 9.1875rem;
   }
 
   .burger-nav a {

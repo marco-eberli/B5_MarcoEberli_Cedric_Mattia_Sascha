@@ -107,6 +107,19 @@ a {
   display: none;
 }
 
+#email {
+  margin-top: 0.25rem;
+}
+
+input[type="text" i], input[type="email" i]   {
+  font-family: jackey;
+}
+
+input[type="text" i]::placeholder, input[type="email" i]::placeholder   {
+  font-family: jackey;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 480px) {
   .drumpad {
     height: 4rem;
