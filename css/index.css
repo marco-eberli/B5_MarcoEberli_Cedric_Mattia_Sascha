@@ -20,6 +20,21 @@
   margin-bottom: 0.56rem;
 }
 
+.win-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.card-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.play-now-button:hover {
+  background-color: black;
+  color: white;
+}
+
 .win-title {
   margin: 7.25rem auto 2.06rem auto;
   text-align: center;
@@ -92,15 +107,30 @@
   padding: 1.63rem;
 }
 
+
 .card-image {
-  width: auto;
-  height: 20rem;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* Dies sorgt dafür, dass die Höhe der Breite entspricht, wodurch ein Quadrat entsteht */
+  position: relative;
+  background-color: gainsboro;
+}
+
+.card-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Dies sorgt dafür, dass das Bild das Quadrat füllt und zugeschnitten wird */
+  transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
 .card-text {
   font-family: jackey;
   font-size: 1.5rem;
-  margin-top: 0.93rem;
+  margin-top: 1.6rem;
 }
 
 .card-button {

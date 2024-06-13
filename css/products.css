@@ -20,6 +20,16 @@
   margin-bottom: 0.56rem;
 }
 
+.win-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.card-button:hover {
+  background-color: black;
+  color: white;
+}
+
 .win-title {
   margin: 7.25rem auto 2.06rem auto;
   text-align: center;
@@ -104,6 +114,17 @@
 }
 
 .card-button {
+  width: 8.5rem;
+  height: 2.5rem;
+  float: right;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.card-price {
   width: 8.5rem;
   height: 2.5rem;
   float: right;

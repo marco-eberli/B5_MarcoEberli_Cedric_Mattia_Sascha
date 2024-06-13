@@ -154,6 +154,11 @@ a {
   transform: translateY(0);
 }
 
+.footer-button:hover {
+  background-color: black;
+  color: white;
+}
+
 @media screen and (max-width: 767px) {
   .footer-text-div {
     width: 90%;
