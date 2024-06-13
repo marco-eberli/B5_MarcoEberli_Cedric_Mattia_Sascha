@@ -94,7 +94,6 @@ a {
 }
 
 .section-line {
-  /*height: 0.1725rem;*/
   height: 0.4125rem;
   background: #000;
   width: 100%;
@@ -267,6 +266,8 @@ a {
     display: none;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 17%;
   }
 
   .burger-nav a {
