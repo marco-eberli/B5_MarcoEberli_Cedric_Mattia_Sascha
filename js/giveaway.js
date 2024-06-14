@@ -166,16 +166,6 @@ document.addEventListener("DOMContentLoaded", function() { //Doesn't work withou
 
   setTimeout(revealForm, 0);
 
-  let submitButton = document.getElementById("submit");
-  submitButton.addEventListener("click", hideForm);
-
-  function hideForm() {
-    document.getElementsByClassName("form-container")[0].style.backgroundColor = "#ffffff00";
-    document.getElementById("login-popup-container").style.display = "none";
-    document.getElementsByClassName("form-container")[0].style.zIndex = "-1";
-    console.log("Form hidden");
-  }
-
   function deactivateAllButtons() {
     audioOne.pause();
     buttonOne.classList.remove("looping");

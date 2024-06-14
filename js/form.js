@@ -1,7 +1,13 @@
+// UNDER VERY HEAVY FUCKING CONSTRUCTION WATCH OUT HAHA
+// UNDER VERY HEAVY FUCKING CONSTRUCTION ALARM
+// UNDER VERY HEAVY FUCKING CONSTRUCTION WI--UUU---WIII--UUUU
+
 // (1) Variablen initialisieren
 const submitButton = document.getElementById("submit");
 const name = document.getElementById("name");
 const email = document.getElementById("email");
+const phone = document.getElementById("phone");
+
 
 //submitButton.disabled = true;
 

@@ -17,7 +17,7 @@
   background-color: white;
 }
 
-#login-popup-background{
+#login-popup-background {
   background-image: url("../ressources/images/surprise-wowowowow.webp");
   background-repeat: none;
   display: block;
@@ -27,27 +27,28 @@
 
 .submit-button {
   width: 5rem;
-  margin-top: 2rem;
   margin: auto;
-  text-align: center; 
+  text-align: center;
   display: flex;
   margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Press Start 2P", system-ui;
 }
 
-.login-popup-input:focus{
+.login-popup-input:focus {
   border: 1rem solid;
   border-image: url("../ressources/pixel-style-assets/borderline.svg") 5 stretch;
-  border-radius: 2rem; 
+  border-radius: 2rem;
   outline: none;
 }
 
 #submit {
-    color: black;
-    text-decoration: none;
-    display: block;
-    font-family: "Press Start 2P", system-ui;
-    text-transform: uppercase;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-family: "Press Start 2P", system-ui;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .game-canvas {
@@ -78,7 +79,8 @@
 
 .looping {
   border: 1rem solid;
-  border-image: url("../ressources/pixel-style-assets/borderline-looping.svg") 5 stretch;
+  border-image: url("../ressources/pixel-style-assets/borderline-looping.svg") 5
+    stretch;
   border-radius: 2rem;
 }
 
@@ -89,12 +91,12 @@
 
 .purple {
   background-image: url("../ressources/images/drumpads-purple.png");
-  background-size: cover; 
+  background-size: cover;
 }
 
 .green {
   background-image: url("../ressources/images/drumpads-green.png");
-  background-size: cover; 
+  background-size: cover;
 }
 
 a {
@@ -111,13 +113,27 @@ a {
   margin-top: 0.25rem;
 }
 
-input[type="text" i], input[type="email" i]   {
-  font-family: jackey;
+#confirmation {
+  margin: 0.7rem;
+  display: none;
 }
 
-input[type="text" i]::placeholder, input[type="email" i]::placeholder   {
+input[type="text" i],
+input[type="email" i],
+input[type="tel" i] {
+  font-family: "Press Start 2P", system-ui;
+}
+
+input[type="text" i]::placeholder,
+input[type="email" i]::placeholder,
+input[type="tel" i]::placeholder {
   font-family: jackey;
   text-transform: uppercase;
+}
+
+.login-popup-input {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -125,7 +141,7 @@ input[type="text" i]::placeholder, input[type="email" i]::placeholder   {
     height: 4rem;
     width: 4rem;
   }
-  
+
   .game-div {
     grid-template-columns: repeat(3, 6rem);
     grid-gap: 0.8rem;
@@ -137,7 +153,8 @@ input[type="text" i]::placeholder, input[type="email" i]::placeholder   {
   }
 
   .login-popup-input {
-    margin-top: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
   }
 }
 
@@ -145,4 +162,11 @@ input[type="text" i]::placeholder, input[type="email" i]::placeholder   {
   #login-popup-container {
     width: 60%;
   }
+}
+
+input[type="text" i].invalid::placeholder,
+input[type="email" i].invalid::placeholder,
+input[type="tel" i].invalid::placeholder {
+  font-style: italic;
+  color: lightcoral;
 }

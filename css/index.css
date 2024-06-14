@@ -1,21 +1,17 @@
-
 .card-button:hover {
   background-color: black;
   color: white;
 }
 
-.play-now-button:hover {
+.card-button-centered:hover {
   background-color: black;
   color: white;
 }
 
-.shop-all-button:hover {
+.big-button:hover {
   background-color: black;
   color: white;
 }
-
-
-
 
 .win-title {
   margin: 7.25rem auto 2.06rem auto;
@@ -55,16 +51,16 @@
 .play-now-content {
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .play-now-content img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
-
-.play-now-button-div {
+.big-button-div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +69,7 @@
   margin-bottom: 7.12rem;
 }
 
-.play-now-button {
+.big-button {
   width: 20.125rem;
   height: 3.4375rem;
   display: flex;
@@ -141,23 +137,6 @@
   margin-top: 1.5rem;
 }
 
-.shop-all-button-div {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 5.13rem;
-}
-
-.shop-all-button {
-  width: 20.125rem;
-  height: 3.4375rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.875rem;
-}
-
 .our-brands-title {
   margin: 9.75rem auto 7.13rem auto;
   text-align: center;
@@ -209,13 +188,23 @@
   .play-now-content {
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .play-now-content img {
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
   }
 
   .card-item {
     width: 70%;
   }
 
-  .shop-all-button-div {
+  .big-button-div {
     width: 100%;
   }
 }

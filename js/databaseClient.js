@@ -57,7 +57,7 @@ const databaseClient = {
 /*
 Den folgenden Code müssen Sie nicht in Ihr Projekt übernehmen. 
 Dient als Vorlage für die Verwendung von executeSqlQuery und insertInto.
-*/
+
 const run = async () => {
   const users = await databaseClient.executeSqlQuery(
     "SELECT * user LIMIT 2 ORDER BY ID DESC"
@@ -71,3 +71,4 @@ const run = async () => {
   });
 };
 //run();
+*/
