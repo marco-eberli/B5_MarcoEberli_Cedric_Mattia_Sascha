@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() { //Doesn't work without this eventhough at the bottom in html file...?
+document.addEventListener("DOMContentLoaded", function () {
+  //Doesn't work without this eventhough at the bottom in html file...?
   const audioOne = document.getElementById("audioOne");
   const audioTwo = document.getElementById("audioTwo");
   const audioThree = document.getElementById("audioThree");
@@ -156,9 +157,11 @@ document.addEventListener("DOMContentLoaded", function() { //Doesn't work withou
   }
 
   function revealForm() {
-    document.getElementsByClassName("form-container")[0].style.backgroundColor = "#ffffff90";
+    document.getElementsByClassName("form-container")[0].style.backgroundColor =
+      "#ffffff90";
     document.getElementsByClassName("form-container")[0].style.zIndex = "10";
-    document.getElementById("login-popup-container").style.display = "inline-block";
+    document.getElementById("login-popup-container").style.display =
+      "inline-block";
     document.getElementById("login-popup-background").style.display = "block";
     deactivateAllButtons();
     console.log("Form revealed");

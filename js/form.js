@@ -8,7 +8,6 @@ const name = document.getElementById("name");
 const email = document.getElementById("email");
 const phone = document.getElementById("phone");
 
-
 //submitButton.disabled = true;
 
 name.addEventListener("input", validateForm);
@@ -38,4 +37,3 @@ const onClickSubmit = async () => {
     email: email.value,
   });
 };
- 

@@ -1,79 +1,79 @@
 .background {
-    background-image: url(../ressources/images/surprise-wowowowow.webp);
-    min-width: 100vw;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
+  background-image: url(../ressources/images/surprise-wowowowow.webp);
+  min-width: 100vw;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
-.card-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 100vw;
-    min-height: 100vh;
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 .message-card {
-    display: block;
-    background-color: white;
-    padding: 2%;
-    width: 35%;
+  display: block;
+  background-color: white;
+  padding: 2%;
+  width: 35%;
 }
 
 .message-title {
-    text-align: center;
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 .message-text {
-    text-align: center;
-    font-size: 1rem;
-    text-decoration: underline;
-    line-height: 140%;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: underline;
+  line-height: 140%;
 }
 
 @media screen and (max-width: 767px) {
-    .message-card {
-        width: 60%;
-        padding: 5%;
-    }
+  .message-card {
+    width: 60%;
+    padding: 5%;
+  }
 
-    .message-title {
-        font-size: 0.75rem;
-    }
+  .message-title {
+    font-size: 0.75rem;
+  }
 
-    .message-text {
-        font-size: 0.25rem;
-    }
+  .message-text {
+    font-size: 0.25rem;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .message-card {
-        width: 40%;
-    }
+  .message-card {
+    width: 40%;
+  }
 
-    .message-title {
-        font-size: 1.5rem;
-    }
+  .message-title {
+    font-size: 1.5rem;
+  }
 
-    .message-text {
-        font-size: 1rem;
-    }
+  .message-text {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 880px) {
-    .message-card {
-        width: 70%;
-        padding: 4%;
-    }
+  .message-card {
+    width: 70%;
+    padding: 4%;
+  }
 
-    .message-title {
-        font-size: 1.5rem;
-    }
+  .message-title {
+    font-size: 1.5rem;
+  }
 
-    .message-text {
-        font-size: 0.875rem;
-    }
+  .message-text {
+    font-size: 0.875rem;
+  }
 }
