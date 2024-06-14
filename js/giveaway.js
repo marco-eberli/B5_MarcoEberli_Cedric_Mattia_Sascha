@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function() { //Doesn't work withou
     console.log("Form revealed");
   }
 
-  setTimeout(revealForm, 0);
+  setTimeout(revealForm, 10000);
 
   function deactivateAllButtons() {
     audioOne.pause();
