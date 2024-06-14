@@ -35,6 +35,11 @@
   font-family: "Press Start 2P", system-ui;
 }
 
+.submit-button:hover {
+  background-color: black;
+  color: white;
+}
+
 .login-popup-input:focus {
   border: 1rem solid;
   border-image: url("../ressources/pixel-style-assets/borderline.svg") 5 stretch;
